@@ -1,0 +1,88 @@
+[gd_scene load_steps=10 format=2]
+
+[ext_resource path="res://assets/negyzet-lap-16.png" type="Texture" id=1]
+[ext_resource path="res://labda.tscn" type="PackedScene" id=2]
+[ext_resource path="res://script/Palya.cs" type="Script" id=3]
+[ext_resource path="res://lufi.tscn" type="PackedScene" id=4]
+[ext_resource path="res://kalapacs.tscn" type="PackedScene" id=5]
+
+[sub_resource type="ConvexPolygonShape2D" id=1]
+points = PoolVector2Array( 0, 0, 30, 0, 30, 30, 0, 30 )
+
+[sub_resource type="ConvexPolygonShape2D" id=2]
+points = PoolVector2Array( 0, 0, 30, 0, 30, 30, 0, 30 )
+
+[sub_resource type="ConvexPolygonShape2D" id=3]
+points = PoolVector2Array( 0, 0, 30, 0, 30, 30, 0, 30 )
+
+[sub_resource type="TileSet" id=4]
+0/name = "negyzet-lap-16.png 0"
+0/texture = ExtResource( 1 )
+0/tex_offset = Vector2( 0, 0 )
+0/modulate = Color( 0.454902, 0.156863, 0.156863, 1 )
+0/region = Rect2( 0, 0, 30, 30 )
+0/tile_mode = 0
+0/occluder_offset = Vector2( 0, 0 )
+0/navigation_offset = Vector2( 0, 0 )
+0/shape_offset = Vector2( 0, 0 )
+0/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+0/shape = SubResource( 1 )
+0/shape_one_way = false
+0/shape_one_way_margin = 1.0
+0/shapes = [ {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 1 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+}, {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 2 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+}, {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 3 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+} ]
+0/z_index = 0
+
+[node name="Palya" type="Node2D"]
+script = ExtResource( 3 )
+psLabda = ExtResource( 2 )
+psLufi = ExtResource( 4 )
+psKalapacs = ExtResource( 5 )
+
+[node name="TileMap" type="TileMap" parent="."]
+tile_set = SubResource( 4 )
+cell_size = Vector2( 30, 30 )
+format = 1
+tile_data = PoolIntArray( 0, 0, 0, 1, 0, 0, 2, 0, 0, 3, 0, 0, 4, 0, 0, 5, 0, 0, 6, 0, 0, 7, 0, 0, 8, 0, 0, 9, 0, 0, 10, 0, 0, 11, 0, 0, 12, 0, 0, 13, 0, 0, 14, 0, 0, 15, 0, 0, 16, 0, 0, 17, 0, 0, 18, 0, 0, 19, 0, 0, 20, 0, 0, 21, 0, 0, 22, 0, 0, 23, 0, 0, 24, 0, 0, 25, 0, 0, 26, 0, 0, 27, 0, 0, 28, 0, 0, 29, 0, 0, 30, 0, 0, 31, 0, 0, 32, 0, 0, 33, 0, 0, 65536, 0, 0, 65569, 0, 0, 131072, 0, 0, 131105, 0, 0, 196608, 0, 0, 196626, 0, 0, 196641, 0, 0, 262144, 0, 0, 262177, 0, 0, 327680, 0, 0, 327713, 0, 0, 393216, 0, 0, 393249, 0, 0, 458752, 0, 0, 458758, 0, 0, 458759, 0, 0, 458760, 0, 0, 458761, 0, 0, 458762, 0, 0, 458763, 0, 0, 458785, 0, 0, 524288, 0, 0, 524293, 0, 0, 524294, 0, 0, 524299, 0, 0, 524300, 0, 0, 524309, 0, 0, 524321, 0, 0, 589824, 0, 0, 589828, 0, 0, 589829, 0, 0, 589836, 0, 0, 589844, 0, 0, 589845, 0, 0, 589848, 0, 0, 589857, 0, 0, 655360, 0, 0, 655364, 0, 0, 655378, 0, 0, 655379, 0, 0, 655380, 0, 0, 655381, 0, 0, 655382, 0, 0, 655383, 0, 0, 655384, 0, 0, 655385, 0, 0, 655386, 0, 0, 655393, 0, 0, 720896, 0, 0, 720900, 0, 0, 720915, 0, 0, 720916, 0, 0, 720919, 0, 0, 720920, 0, 0, 720929, 0, 0, 786432, 0, 0, 786436, 0, 0, 786449, 0, 0, 786450, 0, 0, 786451, 0, 0, 786452, 0, 0, 786453, 0, 0, 786454, 0, 0, 786455, 0, 0, 786456, 0, 0, 786457, 0, 0, 786458, 0, 0, 786465, 0, 0, 851968, 0, 0, 851972, 0, 0, 851973, 0, 0, 851986, 0, 0, 851987, 0, 0, 851990, 0, 0, 851991, 0, 0, 852001, 0, 0, 917504, 0, 0, 917509, 0, 0, 917510, 0, 0, 917516, 0, 0, 917522, 0, 0, 917526, 0, 0, 917537, 0, 0, 983040, 0, 0, 983046, 0, 0, 983047, 0, 0, 983048, 0, 0, 983049, 0, 0, 983050, 0, 0, 983051, 0, 0, 983052, 0, 0, 983073, 0, 0, 1048576, 0, 0, 1048609, 0, 0, 1114112, 0, 0, 1114145, 0, 0, 1179648, 0, 0, 1179681, 0, 0, 1245184, 0, 0, 1245185, 0, 0, 1245186, 0, 0, 1245187, 0, 0, 1245188, 0, 0, 1245189, 0, 0, 1245190, 0, 0, 1245191, 0, 0, 1245192, 0, 0, 1245193, 0, 0, 1245194, 0, 0, 1245195, 0, 0, 1245196, 0, 0, 1245197, 0, 0, 1245198, 0, 0, 1245199, 0, 0, 1245200, 0, 0, 1245201, 0, 0, 1245202, 0, 0, 1245203, 0, 0, 1245204, 0, 0, 1245205, 0, 0, 1245206, 0, 0, 1245207, 0, 0, 1245208, 0, 0, 1245209, 0, 0, 1245210, 0, 0, 1245211, 0, 0, 1245212, 0, 0, 1245213, 0, 0, 1245214, 0, 0, 1245215, 0, 0, 1245216, 0, 0, 1245217, 0, 0 )
+
+[node name="Labda" parent="." instance=ExtResource( 2 )]
+modulate = Color( 0.678431, 0.164706, 1, 1 )
+position = Vector2( 378, -106 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Lufi" parent="." instance=ExtResource( 4 )]
+position = Vector2( 671, 671 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Label" type="Label" parent="."]
+margin_left = 44.0
+margin_top = 10.0
+margin_right = 84.0
+margin_bottom = 28.0
+
+[node name="Kalapacs" parent="." instance=ExtResource( 5 )]
+position = Vector2( 714, -167 )
+__meta__ = {
+"_edit_group_": true
+}
