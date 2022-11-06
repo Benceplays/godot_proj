@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/spray.ogg-992a7969cc1773394a9dd2e07cf2676d.oggstr"
+
+[deps]
+
+source_file="res://assets/spray.ogg"
+dest_files=[ "res://.import/spray.ogg-992a7969cc1773394a9dd2e07cf2676d.oggstr" ]
+
+[params]
+
+loop=false
+loop_offset=0

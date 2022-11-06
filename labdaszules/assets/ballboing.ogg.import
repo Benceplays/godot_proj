@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/ballboing.ogg-89660908b0fc0436fa2c4758de2c7f5d.oggstr"
+
+[deps]
+
+source_file="res://assets/ballboing.ogg"
+dest_files=[ "res://.import/ballboing.ogg-89660908b0fc0436fa2c4758de2c7f5d.oggstr" ]
+
+[params]
+
+loop=false
+loop_offset=0

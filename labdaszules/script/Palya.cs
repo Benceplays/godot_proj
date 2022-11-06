@@ -16,6 +16,7 @@ public class Palya : Node2D
         Engine.TimeScale = 2;
         fps = GetNode("Label") as Label;
         rnd = new Random();
+        
     }
     public override void _Input(InputEvent esemeny)
     {
