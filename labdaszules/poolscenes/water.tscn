@@ -14,7 +14,7 @@ radius = 11.0
 [node name="RigidBody2D" type="RigidBody2D" parent="."]
 mass = 24.401
 physics_material_override = SubResource( 2 )
-gravity_scale = 39.51
+gravity_scale = 16.56
 __meta__ = {
 "_edit_group_": true
 }

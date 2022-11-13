@@ -12,7 +12,7 @@ public class labda : Node2D
 		rnd = new Random();
         ballboing = GetNode("../ballboing") as AudioStreamPlayer2D;
 	}
-	public void _on_RigidBody2D_input_event(object viewport, object inputEvent, int shape_idx){
+	private void _on_RigidBody2D_input_event(object viewport, object inputEvent, int shape_idx){
 		if (inputEvent is InputEventMouseButton egeraction){
 			if(egeraction.Pressed && egeraction.ButtonIndex == 1){
                 var labda = (RigidBody2D)GetNode("RigidBody2D");

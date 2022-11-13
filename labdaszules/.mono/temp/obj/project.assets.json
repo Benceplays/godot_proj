@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "G:\\Saját meghajtó\\Programozas\\labdaszules\\Labdaszules.csproj",
+      "projectUniqueName": "C:\\Users\\Bence\\Documents\\GitHub\\godot_proj\\labdaszules\\Labdaszules.csproj",
       "projectName": "Labdaszules",
-      "projectPath": "G:\\Saját meghajtó\\Programozas\\labdaszules\\Labdaszules.csproj",
+      "projectPath": "C:\\Users\\Bence\\Documents\\GitHub\\godot_proj\\labdaszules\\Labdaszules.csproj",
       "packagesPath": "C:\\Users\\Bence\\.nuget\\packages\\",
-      "outputPath": "G:\\Saját meghajtó\\Programozas\\labdaszules\\.mono\\temp\\obj\\",
+      "outputPath": "C:\\Users\\Bence\\Documents\\GitHub\\godot_proj\\labdaszules\\.mono\\temp\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

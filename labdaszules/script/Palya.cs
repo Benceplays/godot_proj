@@ -23,6 +23,10 @@ public class Palya : Node2D
             if (Input.IsActionJustPressed("labda_keszites")){
             Node2D labda = (Node2D)psLabda.Instance();
             labda.Position = GetLocalMousePosition();
+            int r = rnd.Next(0, 255);
+            int g = rnd.Next(0, 255);
+            int b = rnd.Next(0, 255);
+            labda.Modulate = Color.Color8((byte)r, (byte)g, (byte)b);
             AddChild(labda);
             }
             if (Input.IsActionJustPressed("lufi_keszites")){
