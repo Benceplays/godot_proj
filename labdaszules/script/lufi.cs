@@ -7,13 +7,13 @@ public class lufi : Node2D
 	public AudioStreamPlayer2D lufidurr;
 	public override void _Ready()
 	{
-    lufidurr = GetNode("../Lufidurr") as AudioStreamPlayer2D;
+    lufidurr = GetNode("../Lufidurr") as AudioStreamPlayer2D;dsadasd
 
 	}
 	public void _on_RigidBody2D_input_event(object viewport, object inputEvent, int shape_idx){
 		if (inputEvent is InputEventMouseButton egeraction){
 			if(egeraction.Pressed && egeraction.ButtonIndex == 1){
-				RemoveChild(GetNode("RigidBody2D"));
+				QueueFree();
 				lufidurr.Play();
 			}
 		}

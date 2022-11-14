@@ -1,2 +1,2 @@
-﻿51246
-E:/Godot_v3.5.1-stable_mono_win64/Godot_v3.5.1-stable_mono_win64.exe
+﻿55994
+C:/Users/Bence/AppData/Local/Temp/Rar$EXa2992.42200/Godot_v3.5.1-stable_mono_win64/Godot_v3.5.1-stable_mono_win64.exe
