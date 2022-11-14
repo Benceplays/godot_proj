@@ -7,7 +7,7 @@ public class lufi : Node2D
 	public AudioStreamPlayer2D lufidurr;
 	public override void _Ready()
 	{
-    lufidurr = GetNode("../Lufidurr") as AudioStreamPlayer2D;dsadasd
+    lufidurr = GetNode("../Lufidurr") as AudioStreamPlayer2D;
 
 	}
 	public void _on_RigidBody2D_input_event(object viewport, object inputEvent, int shape_idx){

@@ -10,6 +10,7 @@ bounce = 0.15
 radius = 11.0
 
 [node name="Node2D" type="Node2D"]
+modulate = Color( 0.00784314, 0, 0, 1 )
 
 [node name="RigidBody2D" type="RigidBody2D" parent="."]
 mass = 24.401
