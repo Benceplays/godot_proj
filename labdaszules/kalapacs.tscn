@@ -15,14 +15,14 @@ input_pickable = true
 mass = 1.22449
 
 [node name="HammerGrab-removebg-preview" type="Sprite" parent="RigidBody2D"]
-position = Vector2( 73, 32 )
-scale = Vector2( 0.5, 0.3 )
+position = Vector2( 53, 29.1812 )
+scale = Vector2( 0.369485, 0.20057 )
 texture = ExtResource( 2 )
 
 [node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="RigidBody2D"]
-position = Vector2( 0, -4.57285 )
-scale = Vector2( 0.5, 0.802055 )
-polygon = PoolVector2Array( -21, 48, 21, 48, 21, -44, -21, -44 )
+position = Vector2( -1, -1 )
+scale = Vector2( 0.480655, 0.501284 )
+polygon = PoolVector2Array( -16.644, 65.8309, 2.0805, 65.8309, 20.805, 65.8309, 18.7245, -33.9129, 0, -33.9129, -16.644, -33.9129 )
 
 [node name="RigidBody2D2" type="RigidBody2D" parent="."]
 position = Vector2( 159, 90 )
@@ -30,17 +30,17 @@ mass = 2.44898
 physics_material_override = SubResource( 1 )
 
 [node name="Sprite" type="Sprite" parent="RigidBody2D2"]
-position = Vector2( -86, -62 )
-scale = Vector2( 0.5, 0.5 )
+position = Vector2( -106, -58 )
+scale = Vector2( 0.369314, 0.369314 )
 texture = ExtResource( 3 )
 
 [node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="RigidBody2D2"]
-position = Vector2( -70, -49 )
-scale = Vector2( 0.55, 0.55 )
+position = Vector2( -92, -47 )
+scale = Vector2( 0.414745, 0.414745 )
 polygon = PoolVector2Array( -179, -149, -141, -149, -141, -165, -130, -165, -120, -164, -108, -162, -98, -159, -88, -153, -80, -144, -77, -139, -75, -137, -73, -139, -74, -146, -81, -160, -88, -170, -107, -183, -126, -190, -143, -192, -164, -193, -183, -193, -200, -193, -202, -196, -204, -201, -208, -203, -215, -206, -222, -207, -231, -208, -234, -207, -236, -205, -236, -156, -234, -149, -230, -148, -218, -149, -207, -154, -202, -159, -200, -164, -183, -164, -183, -149 )
 
 [node name="PinJoint2D" type="PinJoint2D" parent="."]
-position = Vector2( 0, -41 )
+position = Vector2( -1, -19 )
 node_a = NodePath("../RigidBody2D")
 node_b = NodePath("../RigidBody2D2")
 bias = 0.9
