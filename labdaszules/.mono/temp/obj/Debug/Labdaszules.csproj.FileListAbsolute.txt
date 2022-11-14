@@ -25,3 +25,12 @@ C:\Users\Bence\Documents\GitHub\godot_proj\labdaszules\.mono\temp\obj\Debug\Labd
 C:\Users\Bence\Documents\GitHub\godot_proj\labdaszules\.mono\temp\obj\Debug\Labdaszules.csproj.CoreCompileInputs.cache
 C:\Users\Bence\Documents\GitHub\godot_proj\labdaszules\.mono\temp\obj\Debug\Labdaszules.dll
 C:\Users\Bence\Documents\GitHub\godot_proj\labdaszules\.mono\temp\obj\Debug\Labdaszules.pdb
+C:\Users\Myloo\Documents\GitHub\godot_projr\labdaszules\.mono\temp\bin\Debug\Labdaszules.dll
+C:\Users\Myloo\Documents\GitHub\godot_projr\labdaszules\.mono\temp\bin\Debug\Labdaszules.pdb
+C:\Users\Myloo\Documents\GitHub\godot_projr\labdaszules\.mono\temp\obj\Debug\Labdaszules.csproj.AssemblyReference.cache
+C:\Users\Myloo\Documents\GitHub\godot_projr\labdaszules\.mono\temp\obj\Debug\Labdaszules.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Myloo\Documents\GitHub\godot_projr\labdaszules\.mono\temp\obj\Debug\Labdaszules.AssemblyInfoInputs.cache
+C:\Users\Myloo\Documents\GitHub\godot_projr\labdaszules\.mono\temp\obj\Debug\Labdaszules.AssemblyInfo.cs
+C:\Users\Myloo\Documents\GitHub\godot_projr\labdaszules\.mono\temp\obj\Debug\Labdaszules.csproj.CoreCompileInputs.cache
+C:\Users\Myloo\Documents\GitHub\godot_projr\labdaszules\.mono\temp\obj\Debug\Labdaszules.dll
+C:\Users\Myloo\Documents\GitHub\godot_projr\labdaszules\.mono\temp\obj\Debug\Labdaszules.pdb

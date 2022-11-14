@@ -91,11 +91,14 @@ margin_right = 84.0
 margin_bottom = 28.0
 
 [node name="Lufidurr" type="AudioStreamPlayer2D" parent="."]
+position = Vector2( 481, 313 )
 stream = ExtResource( 6 )
 
 [node name="ballboing" type="AudioStreamPlayer2D" parent="."]
+position = Vector2( 481, 310 )
 stream = SubResource( 5 )
 volume_db = 24.0
 
 [node name="Spray" type="AudioStreamPlayer2D" parent="."]
+position = Vector2( 484, 311 )
 stream = ExtResource( 8 )
